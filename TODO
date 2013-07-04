@@ -1,0 +1,15 @@
+* Fix the generateTaSignals so that the volatility is based on the ohlc data instead of just close prices
+	* 1-månads-volatilitet   Från   Till   Volatilitetsrisk
+                        0%    10%     Låg
+                       10%    20%     Medium
+                       20%    40%     Hög
+                       40%            Extrem
+* Fix the generateTaSignals so that the liquidity risk is also present
+	* Daglig genomsnittslikviditet     Likviditetsrisk
+  	över 1.00 mill euro/dollar          Låg
+  	0.10-1.00 mill euro/dollar          Medium
+  	0.001-0.10 mill euro/dollar         Hög
+  	under 0.001 mill euro/dollar        Extrem
+* Fix the import of data from file so that you can import only specific symbols
+* Add the ADR technical indicator. Seems very promising
+

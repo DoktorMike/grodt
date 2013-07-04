@@ -1,0 +1,7 @@
+(1) BUY;2;1;1;1
+(2) OUTPERFORM;3;5;5;8
+(3) HOLD;9;7;8;5
+(4) UNDERPERFORM;5;5;4;4
+(5) SELL;1;1;1;0
+No Opinion;0;0;0;0
+Mean Rating;3.00;3.00;2.95;2.67
