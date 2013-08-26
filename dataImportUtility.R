@@ -41,11 +41,11 @@ readAndParseNordnetKeyFigures<-function(fname, numyears=5)
 	antalAktier<-a[grep("Antal aktier", rownames(a)), ]
 	resultatPerAktie<-a[grep("Resultat per aktie", rownames(a)), ]
 	substansVarde<-egetKapital/antalAktier*1000
-	tillvaxt<-cbind((resultatPerAktie[1,-5]-resultatPerAktie[1,-1])/abs(resultatPerAktie[1,-1]), NA)
+  #browser()
+	tillvaxt<-cbind((resultatPerAktie[1,-numyears]-resultatPerAktie[1,-1])/abs(resultatPerAktie[1,-1]), NA)
 	pe10pris<-resultatPerAktie*10
   soliditet<-egetKapital/egetKapitalSkulder
 	colnames(tillvaxt)<-colnames(a)
-	#a<-rbind(a, SubstansVärde=substansVarde)
 	ret<-rbind(ResultatPerAktie=resultatPerAktie, 
              SubstansVarde=substansVarde, 
              Tillvaxt=tillvaxt, 
@@ -64,7 +64,7 @@ readAndParseNordnetKeyFiguresDk<-function(fname, numyears=5)
   antalAktier<-a[grep("Antal aktier", rownames(a)), ]
   resultatPerAktie<-a[grep("Resultat pr. aktie", rownames(a)), ]
   substansVarde<-egetKapital/antalAktier*1000
-  tillvaxt<-cbind( (resultatPerAktie[1,-5]-resultatPerAktie[1,-1])/abs(resultatPerAktie[1,-1]), NA)
+  tillvaxt<-cbind( (resultatPerAktie[1,-numyears]-resultatPerAktie[1,-1])/abs(resultatPerAktie[1,-1]), NA)
   pe10pris<-resultatPerAktie*10
   soliditet<-egetKapital/egetKapitalSkulder
   colnames(tillvaxt)<-colnames(a)
