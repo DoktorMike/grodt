@@ -1,0 +1,14 @@
+Resultaträkning (kSEK)	2012 	2011 	2010 	2009
+Rörelseintäkter 	1 537 879	1 491 087	1 442 123	1 387 000
+Rörelsekostnader + avskrivningar 	-1 439 996	-1 370 084	-1 296 880	-1 286 000
+Rörelseresultat efter avskrivningar 	97 883	121 003	145 243	101 000
+Årets resultat efter skatt 	60 723	77 139	71 866	40 000
+Resultat per aktie 	1,73	2,19	2,04	1,84
+Antal aktier 	35 156 507	35 156 507	35 156 507	21 769 600
+Balansräkning (kSEK) 	2012 	2011 	2010 	2009
+Anläggningstillgångar 	1 295 128	1 303 320	1 310 838	1 314 000
+Omsättningstillgångar 	373 969	337 976	314 211	357 000
+Summa tillgångar 	1 669 097 	1 641 296	1 625 049	1 671 000
+Eget kapital 	834 168	826 726	786 132	323 000
+Skulder 	834 929	814 570	838 917	1 348 000
+Summa eget kapital och skulder 	1 669 097	1 641 296	1 625 049	1 671 000
